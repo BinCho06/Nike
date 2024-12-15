@@ -1,0 +1,405 @@
+/* Anand */
+
+#alexa{
+  width: 100%;
+  margin: 0 auto;
+}
+#tara_image{
+  width: 90%;
+  margin: 0 auto;
+}
+
+#tara_image > img,
+#alexa > img {
+  width: 100%;
+}
+
+#tara_image > p {
+  font-size: 22px;
+  margin-bottom: 1%;
+  width: 99%;
+}
+
+#training_ess,
+#on_rise {
+  width: 50%;
+  text-align: center;
+  height: 200px;
+  margin: 3% auto;
+  margin-bottom: 6%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#training_ess {
+  margin: 7% auto;
+}
+
+#training_ess > p:first-child {
+  font-size: 17px;
+  margin-bottom: 2em;
+}
+
+#training_ess > p:nth-child(2),
+#on_rise > p:first-child {
+  font-size: 49px;
+  font-weight: bolder;
+  margin: -10px 0 0px 0px;
+  transform: scale(1.5);
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+#on_rise > p:nth-child(2),
+#training_ess > p:nth-child(3) {
+  font-size: 16px;
+  margin: 4% 0;
+}
+
+#training_ess > div,
+#on_rise > div {
+  display: flex;
+  margin-left: 24%;
+  font-size: 16px;
+}
+
+#training_ess > div > button:nth-child(2),
+#on_rise > div > button:first-child {
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  margin: 0 8px;
+  background-color: black;
+}
+#training_ess > div > button:hover,
+#on_rise > div > button:hover {
+  background-color: rgb(49, 49, 49);
+}
+
+#on_rise > div > button:nth-child(2) {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: black;
+}
+
+#training_ess > div > button:first-child {
+  width: 230px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: black;
+}
+
+@media screen and (min-width: 415px) and (max-width: 820px) {
+  #training_ess,
+  #on_rise {
+    width: 60%;
+    height: 200px;
+    margin: 6% auto;
+    margin-bottom: 5%;
+  }
+
+  #training_ess {
+    margin-top: 11%;
+  }
+
+  #training_ess > p:first-child {
+    font-size: 17px;
+  }
+
+  #training_ess > p:nth-child(2),
+  #on_rise > p:first-child {
+    font-size: 34px;
+    transform: scale(1.5);
+  }
+
+  #on_rise > p:nth-child(2),
+  #training_ess > p:nth-child(3) {
+    font-size: 17px;
+  }
+
+  #training_ess > div,
+  #on_rise > div {
+    margin-left: 14%;
+  }
+}
+@media screen and (max-width: 414px) {
+  #tara_image {
+    margin-top: 20%;
+  }
+
+  #tara_image > p {
+    font-size: 20px;
+    margin-bottom: 1%;
+  }
+
+  #training_ess,
+  #on_rise {
+    width: 80%;
+    text-align: start;
+    height: 230px;
+    margin: 8% 3%;
+    margin-bottom: 6%;
+  }
+
+  #training_ess {
+    margin: 17% 3%;
+    height: 270px;
+  }
+
+  #training_ess > p:first-child {
+    font-size: 17px;
+  }
+
+  #training_ess > p:nth-child(2),
+  #on_rise > p:first-child {
+    font-size: 49px;
+    font-weight: bolder;
+    line-height: 45px;
+    margin: -10px 0 0px 0px;
+    transform: scale(1);
+  }
+
+  #training_ess > div,
+  #on_rise > div {
+    display: block;
+    margin-left: 0;
+    height: 100px;
+    font-size: 16px;
+  }
+
+  #training_ess > div > button:nth-child(2),
+  #on_rise > div > button:first-child {
+    width: 130px;
+    margin: 0;
+  }
+
+  #on_rise > div > button:nth-child(2) {
+    width: 180px;
+    font-size: 16px;
+    margin-top: 3%;
+  }
+
+  #training_ess > div > button:first-child,
+  #training_ess > div > button:nth-child(2) {
+    margin-top: 3%;
+  }
+}
+
+/* Faruk */
+#faruk{
+  width: 100%;
+  margin: auto;
+}
+
+#ekiden_container>div>div>div>button{
+  background-color: black;
+  color: white;
+  padding: 15px 40px;
+  border: transparent;
+  border-radius: 25px;
+  font-weight: bold;
+}
+#ekiden_div2 img{
+  aspect-ratio: 1 / 1;
+  width: 100%;
+}
+
+#ekiden_div2{
+  display: flex;
+  margin: auto;
+  padding: 0px 5%;
+}
+#ekiden_div2>div{
+  width: 31%;
+  margin-left: 2%;
+  overflow: hidden;
+}
+#ekiden_div2>div:nth-child(3){
+  overflow: hidden;
+}
+#ekiden_container>div:nth-child(1){
+  display: inline-block;
+  margin-left: 62px;
+  font-size: x-large;
+  margin-top: 2em;
+}
+#ekiden_div3>div{
+  margin: 130px 5% 0;
+}
+#ekiden_div3>div>img{
+  width: 100%;
+}
+#ekiden_feat{
+  font-size: x-large;
+  margin-left: 10px;
+}
+
+.image-container{
+  position: relative;
+}
+.shoe-image{
+  width: 100%;
+  height: auto;
+}
+#png-logo{
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  aspect-ratio: auto !important;
+  width: 40% !important;
+  height: auto;
+}
+#svg-logo{
+  position: absolute;
+  top: 47.5%;
+  left: 39%;
+  width: 43%;
+  height: auto;
+}
+#canvas{
+  position: absolute;
+  top: 52%;
+  left: 52%;
+  width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (min-width: 415px) and (max-width:820px){
+  #ekiden_container{
+    margin-left: 20px;
+  }
+  #ekiden_div2>div{
+    margin-left: 20px;
+    width: 90%;
+  }
+  #ekiden_div2{
+    padding: 0;
+    margin: 0;
+  }
+  #ekiden_div3>div>img{
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 414px){
+  #ekiden_container{
+      width: 90%;
+      margin: auto;
+  }
+
+  #ekiden_div2{
+    padding: 0;
+    margin: 0;
+  }
+  
+  #ekiden_div2>div>img{
+    width: 90%;
+    height: 300px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  #ekiden_div2>div{
+    margin: 0;
+    margin-left: 20px;
+    overflow: none;
+    width: 90%;
+  }
+  #ekiden_div2>div:nth-child(3){
+    display: none;
+  }
+  #ekiden_div2{
+      margin-left: 0px;
+      display: inline-block;
+  }
+  #ekiden_div3>div>img{
+      width: 100%;
+      margin-left: 0px;
+  }
+  #ekiden_container>div:nth-child(1){
+      margin-left: 0px;
+  }
+}
+
+/* shubham */
+#lebron-div {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 98%;
+  border: 1px solid transparent;
+  padding-bottom: 20px;
+}
+#lebron-div > div:nth-child(1) {
+  text-align: center;
+}
+#lebron-div > div > span:nth-child(1) {
+  font-weight: 900;
+  font-size: 60px;
+}
+#black-but{
+  height: 40px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  display: block;
+  border: none;
+  border-radius: 40px;
+  font-size: 15px;
+  margin-left: 47.5%;
+  
+}
+#black-but:hover{
+  background-color: rgba(0, 0, 0, 0.719);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#parent-lebron {
+  width: 94%;
+  margin: auto;
+  height: 650px;
+}
+
+#white-but{
+  height: 40px;
+  width: 90px;
+  background-color: white;
+  color: black;
+  display: block;
+  border: none;
+  border-radius: 40px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+#white-but:hover{
+  background-color:rgba(248, 248, 248, 0.555);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#lebron-div-poster{
+  margin-bottom: 10%;
+}
+
+/* media query for phones and small size screens */
+@media only screen and (min-width : 0px) and (max-width : 414px){
+  #lebron-div-poster{
+    display: none;
+  }
+  #lebron-div > div > span:nth-child(1) {
+    font-weight: 900;
+    font-size: 40px;
+    
+  }
+  #lebron-div > div:nth-child(1) {
+    text-align: left;
+    
+  }
+  #black-but{
+    margin : 0px 155px 10px 0px;
+  }
+}

@@ -1,0 +1,147 @@
+#navbar_suraj {
+  width: 100%;
+}
+body {
+  font-family: 'Nike Futura ND','Helvetica Now Text Medium',Helvetica,Arial,sans-serif;
+  margin: 0;
+}
+.news{
+  margin-top: 50px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+.news h3{
+  font-weight: 100;
+  margin-bottom: 0;
+}
+.news p{
+  margin: 0 0 0.6em 0;
+  padding: 0.5em;
+}
+.left {
+  height: 40px;
+  width: 10%;
+}
+#right {
+  width: 12%;
+  display: flex;
+  justify-content: right;
+  cursor: pointer;
+  margin-right: 2%;
+}
+#right svg{
+  margin: 0.2em;
+  padding: 0.6em;
+  border-radius: 50%;
+}
+#right svg:hover{
+  background-color: #cacacb;
+}
+hr {
+  height: 17px;
+  margin-top: 5%;
+}
+#bottom {
+  position: fixed;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1;
+}
+.center {
+  display: flex;
+  font-weight: 600;
+}
+.center > p {
+  margin-right: 8%;
+  cursor: pointer;
+}
+.center > p:hover {
+  border-bottom: 2px solid black;
+  padding-bottom: 10%;
+}
+#center_phone {
+  display: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 414px) {
+  .left {
+    height: 40px;
+    width: 10%;
+  }
+  #bottom {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+    margin-top: 0.3%;
+  }
+  #center_phone {
+    display: block;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  select {
+    font-size: larger;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    text-align: center;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  option {
+    font-size: large;
+    background-color: white;
+    border: gray;
+  }
+  .center {
+    display: none;
+  }
+  #right svg{
+    width: 1em;
+    margin: 0.2em;
+    padding: 0.6em;
+    border-radius: 50%;
+  }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 820px) {
+  .left {
+    height: 40px;
+    width: 10%;
+  }
+  #right {
+    width: 90%;
+    display: flex;
+    font-size: 14px;
+    margin: 0px;
+  }
+  #bottom {
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    width: 98%;
+    margin: auto;
+    margin-top: 0.3%;
+  }
+  .center {
+    display: none;
+  }
+  .center > p {
+    margin-right: 0%;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-right: 25px;
+  }
+  #center_phone {
+    display: none;
+  }
+}
