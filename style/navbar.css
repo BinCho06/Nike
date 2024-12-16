@@ -19,7 +19,7 @@ body {
   margin-bottom: 0;
 }
 .news p{
-  margin: 0 0 0.6em 0;
+  margin: 0 0 0.6em;
   padding: 0.5em;
 }
 .left {
@@ -27,11 +27,12 @@ body {
   width: 10%;
 }
 #right {
-  width: 12%;
+  width: 10em;
   display: flex;
   justify-content: right;
   cursor: pointer;
   margin-right: 2%;
+  margin-left: -2em;
 }
 #right svg{
   margin: 0.2em;
@@ -40,10 +41,6 @@ body {
 }
 #right svg:hover{
   background-color: #cacacb;
-}
-hr {
-  height: 17px;
-  margin-top: 5%;
 }
 #bottom {
   position: fixed;
@@ -56,6 +53,7 @@ hr {
 }
 .center {
   display: flex;
+  margin-left: -5%;
   font-weight: 600;
 }
 .center > p {
@@ -75,19 +73,6 @@ hr {
     height: 40px;
     width: 10%;
   }
-  #bottom {
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    width: 98%;
-    margin: auto;
-    margin-top: 0.3%;
-  }
-  #center_phone {
-    display: block;
-    font-size: x-large;
-    font-weight: bolder;
-  }
   select {
     font-size: larger;
     background-color: white;
@@ -104,6 +89,12 @@ hr {
   }
   .center {
     display: none;
+  }
+  #center_phone {
+    display: inline-block;
+  }
+  #right{
+    width: 12em;
   }
   #right svg{
     width: 1em;
@@ -124,13 +115,8 @@ hr {
     font-size: 14px;
     margin: 0px;
   }
-  #bottom {
-    height: 50px;
-    display: flex;
-    justify-content: left;
-    width: 98%;
-    margin: auto;
-    margin-top: 0.3%;
+  #center_phone {
+    display: inline-block;
   }
   .center {
     display: none;
@@ -140,8 +126,5 @@ hr {
     cursor: pointer;
     margin-left: 0px;
     margin-right: 25px;
-  }
-  #center_phone {
-    display: none;
   }
 }
