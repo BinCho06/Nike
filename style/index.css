@@ -33,37 +33,21 @@
 
 /* Anand */
 #alexa{
+  position: relative;
   width: 100%;
   margin: 0 auto;
 }
-#tara_image{
-  width: 90%;
-  margin: 0 auto;
-}
-
-#tara_image > img,
 #alexa > img {
   width: 100%;
 }
 
-#tara_image > p {
-  font-size: 22px;
-  margin-bottom: 1%;
-  width: 99%;
-}
-
-#training_ess,
-#on_rise {
+#training_ess{
   width: 50%;
   text-align: center;
   height: 200px;
-  margin: 3% auto;
+  margin: 7% auto;
   margin-bottom: 6%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-#training_ess {
-  margin: 7% auto;
 }
 
 #training_ess > p:first-child {
@@ -71,8 +55,7 @@
   margin-bottom: 2em;
 }
 
-#training_ess > p:nth-child(2),
-#on_rise > p:first-child {
+#training_ess > p:nth-child(2){
   font-size: 49px;
   font-weight: bolder;
   margin: -10px 0 0px 0px;
@@ -80,58 +63,41 @@
   font-family: "Fira Sans Extra Condensed", sans-serif;
 }
 
-#on_rise > p:nth-child(2),
-#training_ess > p:nth-child(3) {
+#training_ess > p:nth-child(3){
   font-size: 16px;
   margin: 4% 0;
 }
 
-#training_ess > div,
-#on_rise > div {
+#training_ess > div{
   display: flex;
   justify-content: center;
 }
 
 @media screen and (min-width: 415px) and (max-width: 820px) {
-  #training_ess,
-  #on_rise {
+  #training_ess{
     width: 60%;
     height: 200px;
-    margin: 6% auto;
+    margin: 11% auto 6%;
     margin-bottom: 5%;
-  }
-
-  #training_ess {
-    margin-top: 11%;
   }
 
   #training_ess > p:first-child {
     font-size: 17px;
   }
 
-  #training_ess > p:nth-child(2),
-  #on_rise > p:first-child {
+  #training_ess > p:nth-child(2){
     font-size: 34px;
     transform: scale(1.5);
   }
 
-  #on_rise > p:nth-child(2),
   #training_ess > p:nth-child(3) {
     font-size: 17px;
   }
 }
 @media screen and (max-width: 414px) {
-  #tara_image {
-    margin-top: 20%;
-  }
 
-  #tara_image > p {
-    font-size: 20px;
-    margin-bottom: 1%;
-  }
 
-  #training_ess,
-  #on_rise {
+  #training_ess{
     width: 90%;
     text-align: start;
     margin: 8% 3%;
@@ -147,8 +113,7 @@
     font-size: 17px;
   }
 
-  #training_ess > p:nth-child(2),
-  #on_rise > p:first-child {
+  #training_ess > p:nth-child(2){
     font-size: 49px;
     font-weight: bolder;
     line-height: 45px;
@@ -156,8 +121,7 @@
     transform: scale(1);
   }
 
-  #training_ess > div,
-  #on_rise > div {
+  #training_ess > div{
     display: block;
     margin-left: 0;
   }
@@ -213,6 +177,13 @@
   margin-left: 10px;
 }
 
+.clickable-area {
+  position: absolute;
+  top: 49.5%;
+  right: 29.8%;
+  width: 1.7%;
+  height: 3%;
+}
 .image-container{
   position: relative;
 }
