@@ -2,6 +2,7 @@ window.onload = function(){
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
     ctx.scale(0.33, 0.33);
+    ctx.lineWidth = 15;
     ctx.beginPath();
     ctx.moveTo(183.94,137.5);
     ctx.bezierCurveTo(184,138,152,199,163,230);
